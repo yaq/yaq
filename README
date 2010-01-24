@@ -1,0 +1,6 @@
+Yaq - Yet Another Queue.
+
+How to install:
+1. Create database named 'Queue' on your .\sqlexpress server.
+2. Apply 'initial.sql' to the database.
+3. Run tests

@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yaq.Core", "core\Yaq.Core.csproj", "{60D79160-B3BB-4AD2-82A7-98EFB3ECF1F7}"
+EndProject
+Project("{4F174C21-8C12-11D0-8340-0000F80270F8}") = "Yaq.Db", "db\Yaq.Db.dbp", "{54F3DAD1-41F1-45A0-AE6C-D963C510AC55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yaq.WebHost", "webhost\Yaq.WebHost.csproj", "{F9B89847-231A-435E-AA7D-130F2C98DA1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yaq.Tests", "tests\Yaq.Tests.csproj", "{177EAE44-2F1F-47A5-9E1C-2D53B414C5A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C0E49769-A681-4066-819A-841225C3A44C}"
+	ProjectSection(SolutionItems) = preProject
+		core\LocalTestRun.testrunconfig = core\LocalTestRun.testrunconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = core\core.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60D79160-B3BB-4AD2-82A7-98EFB3ECF1F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60D79160-B3BB-4AD2-82A7-98EFB3ECF1F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60D79160-B3BB-4AD2-82A7-98EFB3ECF1F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60D79160-B3BB-4AD2-82A7-98EFB3ECF1F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9B89847-231A-435E-AA7D-130F2C98DA1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9B89847-231A-435E-AA7D-130F2C98DA1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9B89847-231A-435E-AA7D-130F2C98DA1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9B89847-231A-435E-AA7D-130F2C98DA1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{177EAE44-2F1F-47A5-9E1C-2D53B414C5A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{177EAE44-2F1F-47A5-9E1C-2D53B414C5A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{177EAE44-2F1F-47A5-9E1C-2D53B414C5A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{177EAE44-2F1F-47A5-9E1C-2D53B414C5A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

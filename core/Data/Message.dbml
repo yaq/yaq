@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="queue" Class="MessageDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.\sqlexpress;Initial Catalog=queue;Integrated Security=True" SettingsObjectName="Yaq.Core.Properties.Settings" SettingsPropertyName="queueConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="Queue.Message" Member="Messages">
+    <Type Name="Message">
+      <Column Name="Id" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Queue" Type="System.String" DbType="VarChar(80)" CanBeNull="true" />
+      <Column Name="PopReceipt" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="Content" Type="System.Data.Linq.Binary" DbType="VarBinary(8000)" CanBeNull="true" />
+      <Column Name="TakenTill" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Queued" AutoSync="OnInsert" Type="System.DateTime" DbType="DateTime" IsDbGenerated="true" CanBeNull="true" />
+      <Column Name="Version" Type="System.Data.Linq.Binary" DbType="rowversion NOT NULL" CanBeNull="false" UpdateCheck="Always" IsVersion="true" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,11 @@
+yaq.suo
+core/bin/*
+core/obj/*
+Yaq.Core.csproj.user
+tests/bin/*
+tests/obj/*
+Yaq.Tests.csproj.user
+webhost/bin/*
+webhost/obj/*
+Yaq.WebHost.csproj.user
+

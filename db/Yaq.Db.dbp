@@ -1,0 +1,13 @@
+# Microsoft Developer Studio Project File - Database Project
+Begin DataProject = "Yaq.Db"
+   MSDTVersion = "80"
+   Begin Folder = "Change Scripts"
+   End
+   Begin Folder = "Create Scripts"
+      Script = "initial.sql"
+   End
+   Begin DBRefFolder = "Database References"
+   End
+   Begin Folder = "Queries"
+   End
+End
