@@ -11,7 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yaq.Tests", "tests\Yaq.Test
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C0E49769-A681-4066-819A-841225C3A44C}"
 	ProjectSection(SolutionItems) = preProject
-		core\LocalTestRun.testrunconfig = core\LocalTestRun.testrunconfig
+		README = README
+		VsEditorFormatting.vssettings = VsEditorFormatting.vssettings
 	EndProjectSection
 EndProject
 Global
